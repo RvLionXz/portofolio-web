@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Reval Maulidan | Mobile App Developer",
   description:
-    "Portfolio website of John Doe, a professional Mobile App Developer specializing in React Native, Flutter, and native mobile development.",
+    "Portfolio website of Reval Maulidan, a professional Mobile App Developer specializing in React Native, Flutter, and native mobile development.",
     generator: 'v0.dev'
 }
 

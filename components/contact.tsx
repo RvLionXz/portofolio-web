@@ -8,7 +8,7 @@ import { useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from "lucide-react"
+import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Instagram } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -80,8 +80,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-gray-300 font-medium">Email</h4>
-                      <a href="mailto:hello@example.com" className="text-cyan-400 hover:underline">
-                        hello@example.com
+                      <a href="mailto:rvlionxz@gmail.com" className="text-cyan-400 hover:underline">
+                        rvlionxz@gmail.com
                       </a>
                     </div>
                   </div>
@@ -92,8 +92,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-gray-300 font-medium">Phone</h4>
-                      <a href="tel:+1234567890" className="text-cyan-400 hover:underline">
-                        +1 (234) 567-890
+                      <a href="tel:+6285259990094" className="text-cyan-400 hover:underline">
+                        +6285259990094
                       </a>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-gray-300 font-medium">Location</h4>
-                      <p className="text-gray-400">San Francisco, California</p>
+                      <p className="text-gray-400">Aceh, Indonesia</p>
                     </div>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold mb-6 text-white">Connect With Me</h3>
                 <div className="flex space-x-4">
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/RvLionXz"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 rounded-full text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
@@ -122,7 +122,7 @@ export default function Contact() {
                     <Github className="h-5 w-5" />
                   </Link>
                   <Link
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/reval-maulidan-8bbb12298/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 rounded-full text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
@@ -130,12 +130,12 @@ export default function Contact() {
                     <Linkedin className="h-5 w-5" />
                   </Link>
                   <Link
-                    href="https://twitter.com"
+                    href="https://www.instagram.com/rvlmldn/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-800 rounded-full text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
                   >
-                    <Twitter className="h-5 w-5" />
+                    <Instagram className="h-5 w-5" />
                   </Link>
                 </div>
               </div>
@@ -177,7 +177,7 @@ export default function Contact() {
                       type="email"
                       value={formState.email}
                       onChange={handleChange}
-                      placeholder="john@example.com"
+                      placeholder="rvlionxz@gmail.com"
                       required
                       className="bg-gray-700/50 border-gray-600 focus-visible:ring-cyan-500 text-gray-200"
                     />

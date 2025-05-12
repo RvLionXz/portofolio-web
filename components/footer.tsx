@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react"
 import Link from "next/link"
 
 export default function Footer() {
@@ -7,12 +7,12 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Reval Maulidan. All rights reserved.</p>
           </div>
 
           <div className="flex space-x-4">
             <Link
-              href="https://github.com"
+              href="https://github.com/RvLionXz"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -20,7 +20,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/reval-maulidan-8bbb12298/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -28,14 +28,14 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </Link>
             <Link
-              href="https://twitter.com"
+              href="https://www.instagram.com/rvlmldn/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
             >
-              <Twitter className="h-5 w-5" />
+              <Instagram className="h-5 w-5" />
             </Link>
-            <Link href="mailto:hello@example.com" className="text-gray-400 hover:text-cyan-400 transition-colors">
+            <Link href="mailto:rvlionxz@gmail.com" className="text-gray-400 hover:text-cyan-400 transition-colors">
               <Mail className="h-5 w-5" />
             </Link>
           </div>
